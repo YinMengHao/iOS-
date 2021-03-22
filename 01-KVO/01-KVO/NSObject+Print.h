@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)printMethodNamesOfClass:(Class)cls;
 - (void)printMethodNamesOfClass:(Class)cls className:(NSString * _Nullable)clsName;
 + (void)printMethodNamesOfClass:(Class)cls;
++ (void)printMethodNamesOfClass:(Class)cls className:(NSString * _Nullable)clsName;
 
 @end
 

@@ -9,4 +9,19 @@
 
 @implementation MHPerson
 
+//- (void)_isKVOA {
+//    NSLog(@"%s", __func__);
+//}
+
+//- (BOOL)_isKVOA {
+//    NSLog(@"%s", __func__);
+//    return YES;
+//}
+
+- (void)didChangeValueForKey:(NSString *)key {
+    NSLog(@"didChangeValueForKey -- begin");
+    [super didChangeValueForKey:key];
+    NSLog(@"didChangeValueForKey -- end");
+}
+
 @end

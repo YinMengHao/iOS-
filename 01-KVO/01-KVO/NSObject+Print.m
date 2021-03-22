@@ -35,5 +35,9 @@
     NSObject *obj = [self new];
     [obj printMethodNamesOfClass:cls];
 }
-
+ 
++ (void)printMethodNamesOfClass:(Class)cls className:(NSString *)clsName {
+    NSObject *obj = [self new];
+    [obj printMethodNamesOfClass:cls className:clsName];
+}
 @end

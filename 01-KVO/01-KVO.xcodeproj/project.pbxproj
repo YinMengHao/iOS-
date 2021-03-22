@@ -18,6 +18,7 @@
 		213FD8E9260831C800FE03FC /* _1_KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FD8E8260831C800FE03FC /* _1_KVOUITests.m */; };
 		213FD8FB2608320900FE03FC /* MHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FD8FA2608320900FE03FC /* MHPerson.m */; };
 		213FD901260834E400FE03FC /* NSObject+Print.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FD900260834E400FE03FC /* NSObject+Print.m */; };
+		213FD9072608697200FE03FC /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FD9062608697200FE03FC /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		213FD8FA2608320900FE03FC /* MHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MHPerson.m; path = Assets.xcassets/MHPerson.m; sourceTree = "<group>"; };
 		213FD8FF260834E400FE03FC /* NSObject+Print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Print.h"; sourceTree = "<group>"; };
 		213FD900260834E400FE03FC /* NSObject+Print.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Print.m"; sourceTree = "<group>"; };
+		213FD9052608697200FE03FC /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		213FD9062608697200FE03FC /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				213FD8C8260831C700FE03FC /* ViewController.m */,
 				213FD8FF260834E400FE03FC /* NSObject+Print.h */,
 				213FD900260834E400FE03FC /* NSObject+Print.m */,
+				213FD9052608697200FE03FC /* Test.h */,
+				213FD9062608697200FE03FC /* Test.m */,
 				213FD8F92608320900FE03FC /* MHPerson.h */,
 				213FD8FA2608320900FE03FC /* MHPerson.m */,
 				213FD8CA260831C700FE03FC /* Main.storyboard */,
@@ -280,6 +285,7 @@
 				213FD901260834E400FE03FC /* NSObject+Print.m in Sources */,
 				213FD8C9260831C700FE03FC /* ViewController.m in Sources */,
 				213FD8C3260831C700FE03FC /* AppDelegate.m in Sources */,
+				213FD9072608697200FE03FC /* Test.m in Sources */,
 				213FD8D4260831C700FE03FC /* main.m in Sources */,
 				213FD8C6260831C700FE03FC /* SceneDelegate.m in Sources */,
 			);
