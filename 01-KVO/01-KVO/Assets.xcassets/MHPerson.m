@@ -18,10 +18,10 @@
 //    return YES;
 //}
 
-- (void)didChangeValueForKey:(NSString *)key {
-    NSLog(@"didChangeValueForKey -- begin");
-    [super didChangeValueForKey:key];
-    NSLog(@"didChangeValueForKey -- end");
-}
+//- (void)didChangeValueForKey:(NSString *)key {
+//    NSLog(@"didChangeValueForKey -- begin");
+//    [super didChangeValueForKey:key];
+//    NSLog(@"didChangeValueForKey -- end");
+//}
 
 @end
